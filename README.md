@@ -12,7 +12,7 @@ Install via Hex
 ```elixir
 defp deps do
   [
-    {:blol, "~> 0.1.0"},
+    {:blol, "~> 0.1.1"},
   ]
 end
 ```
@@ -21,12 +21,6 @@ Get a Riot API Key from https://developer.riotgames.com/ and set it in your term
 
 ```bash
 export RIOT_API_KEY="YOUR-RIOT-API-KEY-GOES-HERE"
-```
-
-or hard code it inside your config file:
-```elixir
-config :blol,
-  riot_api_key: "YOUR-RIOT-API-KEY-GOES-HERE"
 ```
 
 
