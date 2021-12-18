@@ -1,6 +1,5 @@
 use Mix.Config
 
-# Configures the endpoint
 config :blol,
   riot_api_key: System.get_env("RIOT_API_KEY") ||
       raise """
