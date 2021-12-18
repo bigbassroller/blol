@@ -2,7 +2,7 @@
 
 **Description**
 
-Monitors League of Legends summoners participants for new matches. Includes some useful functions for working with the LOL API. See the [hex documentation](https://hexdocs.pm/blol/0.1.0/Blol.html) for more details. 
+Monitors League of Legends summoners participants for new matches. Includes some useful functions for working with the LOL API. See the [hex documentation](https://hexdocs.pm/blol/0.1.2/Blol.html) for more details. 
 
 
 ## Installation
