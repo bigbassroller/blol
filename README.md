@@ -12,7 +12,7 @@ Install via Hex
 ```elixir
 defp deps do
   [
-    {:blol, "~> 0.1.1"},
+    {:blol, "~> 0.1.2"},
   ]
 end
 ```
