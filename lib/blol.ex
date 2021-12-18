@@ -34,8 +34,8 @@ defmodule Blol do
 
   ## Examples
 
-    iex> Blol.get_summoner_matches("caitlyn", "br1", 5)
-    ["BR1_2298956627", "BR1_2298915613", "BR1_2298934053", "BR1_2298932595", "BR1_2298931318"]
+      iex> Blol.get_summoner_matches("caitlyn", "br1", 5)
+      ["BR1_2298956627", "BR1_2298915613", "BR1_2298934053", "BR1_2298932595", "BR1_2298931318"]
 
   """
   def get_summoner_matches(name, region, limit) do
@@ -114,8 +114,8 @@ defmodule Blol do
 
   ## Examples
 
-    iex> Blol.monitor_summoner_matches("caitlyn", "br1", 5)
-    ["Antielialil", "Sanctum Slayer", "Rerdy", "Ehadhodl", "Pernaeliu", "Gaurrars", "Uballodenth", "Jertarun", "Einglent", "Cathesmaurie", "Valak1z", "Inalisha", "the GazettE", "Osarabrit", "Inthermar", "Jezekoand", "Dikoxo", "Yneanereth", "Inanneevi", "uxsna", "Sievadenysal"]     
+      iex> Blol.monitor_summoner_matches("caitlyn", "br1", 5)
+      ["Antielialil", "Sanctum Slayer", "Rerdy", "Ehadhodl", "Pernaeliu", "Gaurrars", "Uballodenth", "Jertarun", "Einglent", "Cathesmaurie", "Valak1z", "Inalisha", "the GazettE", "Osarabrit", "Inthermar", "Jezekoand", "Dikoxo", "Yneanereth", "Inanneevi", "uxsna", "Sievadenysal"]     
   """
   def monitor_summoner_matches(name, region, limit) do
     summoners = get_summoner_participants(name, region, limit)
